@@ -1,5 +1,6 @@
 body {
-  background-color: #fffbf7;
+  /* background-color: #fffbf7; */
+  background-color: cyan;
 }
 
 h1 {
@@ -48,9 +49,14 @@ li {
 
 .navbar {
   width: 70%;
-  text-align: center;
+  text-align: left;
   color: #025157;
   font-weight: 500;
+  font-family: sans-serif;
+}
+
+.navbar li {
+  margin: 0 25px;
 }
 
 .actions {
@@ -58,6 +64,22 @@ li {
   text-align: right;
   font-size: 14px;
   font-weight: 600;
+}
+
+.actions > * {
+  margin: 0 10px;
+}
+
+.actions > #sign-in {
+  color: #67b54b;
+}
+
+.actions > #free-trial {
+  background-color: #67b54b;
+  padding: 12px 14px;
+  border-radius: 5px;
+  color: white;
+  border: none;
 }
 
 .main {
