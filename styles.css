@@ -60,13 +60,8 @@ li {
 }
 
 .navbar {
-<<<<<<< HEAD
-  width: 70%;
-  text-align: left;
-=======
   width: 60%;
   text-align: center;
->>>>>>> upstream/main
   color: #025157;
   font-weight: 500;
   font-family: sans-serif;
@@ -87,18 +82,6 @@ li {
   margin: 0 10px;
 }
 
-<<<<<<< HEAD
-.actions > #sign-in {
-  color: #67b54b;
-}
-
-.actions > #free-trial {
-  background-color: #67b54b;
-  padding: 12px 14px;
-  border-radius: 5px;
-  color: white;
-  border: none;
-=======
 .actions a {
   color: #67b54b;
 }
@@ -109,7 +92,6 @@ li {
   padding: 12px 14px;
   border: 0;
   border-radius: 5px;
->>>>>>> upstream/main
 }
 
 .main {
